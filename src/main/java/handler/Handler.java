@@ -25,6 +25,11 @@ public class Handler {
         this.forwarder = forwarder;
     }
 
+    @GetMapping("/dummy")
+    public ResponseEntity<?> dummy(HttpServletRequest request) {
+       return ResponseEntity.ok("ECG Request Handler");
+    }
+
     /***
      * This method retrieves the **next** five signals from
      * the ECG signal.
