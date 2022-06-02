@@ -1,4 +1,4 @@
-package forwarder;
+package tudelft.ecgcontainer.forwarder;
 
 import java.io.IOException;
 import java.net.URI;

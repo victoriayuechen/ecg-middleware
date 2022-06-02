@@ -1,7 +1,7 @@
-package handler;
+package tudelft.ecgcontainer.handler;
 
 
-import forwarder.Forwarder;
+import tudelft.ecgcontainer.forwarder.Forwarder;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
